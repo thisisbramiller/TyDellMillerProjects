@@ -17,6 +17,12 @@
           "appId": "d1mm9sjwvssnhr",
           "type": "cicd"
         }
+      },
+      "auth": {
+        "tydellmillerprojects": {}
+      },
+      "storage": {
+        "s3tydellmillerprojectsstorage2dddd843": {}
       }
     }
   }
