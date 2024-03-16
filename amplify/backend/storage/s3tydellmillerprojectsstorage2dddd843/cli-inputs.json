@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3tydellmillerprojectsstorage2dddd843",
+  "bucketName": "tydellmillerprojects-storage-2dddd843",
+  "policyUUID": "3e47d8a5",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "READ",
+    "CREATE_AND_UPDATE",
+    "DELETE"
+  ]
+}
