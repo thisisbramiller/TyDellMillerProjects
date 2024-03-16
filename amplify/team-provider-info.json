@@ -17,6 +17,66 @@
           "appId": "d1mm9sjwvssnhr",
           "type": "cicd"
         }
+      },
+      "auth": {
+        "tydellmillerprojects": {}
+      },
+      "storage": {
+        "s3tydellmillerprojectsstorage2dddd843": {}
+      }
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tydellmillerprojects-prod-141701-authRole",
+      "UnauthRoleArn": "arn:aws:iam::452424739751:role/amplify-tydellmillerprojects-prod-141701-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::452424739751:role/amplify-tydellmillerprojects-prod-141701-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-tydellmillerprojects-prod-141701-deployment",
+      "UnauthRoleName": "amplify-tydellmillerprojects-prod-141701-unauthRole",
+      "StackName": "amplify-tydellmillerprojects-prod-141701",
+      "StackId": "arn:aws:cloudformation:us-east-1:452424739751:stack/amplify-tydellmillerprojects-prod-141701/c4ac4560-e3c9-11ee-98a6-0e334a3035e3",
+      "AmplifyAppId": "d1mm9sjwvssnhr"
+    },
+    "categories": {
+      "auth": {
+        "tydellmillerprojects": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1mm9sjwvssnhr",
+          "type": "cicd"
+        }
+      },
+      "storage": {
+        "s3tydellmillerprojectsstorage2dddd843": {}
+      }
+    }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tydellmillerprojects-test-142702-authRole",
+      "UnauthRoleArn": "arn:aws:iam::452424739751:role/amplify-tydellmillerprojects-test-142702-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::452424739751:role/amplify-tydellmillerprojects-test-142702-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-tydellmillerprojects-test-142702-deployment",
+      "UnauthRoleName": "amplify-tydellmillerprojects-test-142702-unauthRole",
+      "StackName": "amplify-tydellmillerprojects-test-142702",
+      "StackId": "arn:aws:cloudformation:us-east-1:452424739751:stack/amplify-tydellmillerprojects-test-142702/2ac76180-e3cb-11ee-9598-12664190c781",
+      "AmplifyAppId": "d1mm9sjwvssnhr"
+    },
+    "categories": {
+      "auth": {
+        "tydellmillerprojects": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1mm9sjwvssnhr",
+          "type": "cicd"
+        }
+      },
+      "storage": {
+        "s3tydellmillerprojectsstorage2dddd843": {}
       }
     }
   }
