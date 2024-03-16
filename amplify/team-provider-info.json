@@ -20,6 +20,9 @@
       },
       "auth": {
         "tydellmillerprojects": {}
+      },
+      "storage": {
+        "s3tydellmillerprojectsstorage2dddd843": {}
       }
     }
   }
