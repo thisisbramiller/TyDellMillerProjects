@@ -179,6 +179,7 @@ export default function NavBarHeader(props) {
           borderRadius="160px"
           padding="0px 0px 0px 0px"
           objectFit="cover"
+          src="logo192.png"
           {...getOverrideProps(overrides, "image")}
         ></Image>
       </Flex>
