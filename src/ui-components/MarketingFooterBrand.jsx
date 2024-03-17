@@ -6,11 +6,14 @@
 
 /* eslint-disable */
 import * as React from "react";
-import { getOverrideProps } from "./utils";
+import { getOverrideProps, useNavigateAction } from "./utils";
 import { Button, Flex, Text, TextField } from "@aws-amplify/ui-react";
 import LogoWithText from "./LogoWithText";
 export default function MarketingFooterBrand(props) {
-  const { overrides, ...rest } = props;
+  const { blog, overrides, ...rest } = props;
+  const aboutusOnClick = useNavigateAction({ type: "url", url: "about" });
+  const contactOnClick = useNavigateAction({ type: "url", url: "contact" });
+  const blogOnClick = useNavigateAction({ type: "url", url: "blog" });
   return (
     <Flex
       gap="32px"
@@ -440,7 +443,10 @@ export default function MarketingFooterBrand(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="About us"
+            children="About Us"
+            onClick={() => {
+              aboutusOnClick();
+            }}
             {...getOverrideProps(overrides, "About us")}
           ></Text>
           <Text
@@ -463,6 +469,9 @@ export default function MarketingFooterBrand(props) {
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Contact"
+            onClick={() => {
+              contactOnClick();
+            }}
             {...getOverrideProps(overrides, "Contact")}
           ></Text>
           <Text
@@ -485,6 +494,9 @@ export default function MarketingFooterBrand(props) {
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Blog"
+            onClick={() => {
+              blogOnClick();
+            }}
             {...getOverrideProps(overrides, "Blog")}
           ></Text>
         </Flex>
