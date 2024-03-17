@@ -6,12 +6,16 @@
 
 /* eslint-disable */
 import * as React from "react";
-import { getOverrideProps } from "./utils";
+import { getOverrideProps, useNavigateAction } from "./utils";
 import LogoWithText from "./LogoWithText";
 import { Flex, Image, Text } from "@aws-amplify/ui-react";
 import MyIcon from "./MyIcon";
 export default function NavBarHeader(props) {
   const { overrides, ...rest } = props;
+  const dashboardOnClick = useNavigateAction({ type: "url", url: "home" });
+  const jobsOnClick = useNavigateAction({ type: "url", url: "about" });
+  const applicantsOnClick = useNavigateAction({ type: "url", url: "services" });
+  const companyOnClick = useNavigateAction({ type: "url", url: "contact" });
   return (
     <Flex
       gap="40px"
@@ -73,6 +77,9 @@ export default function NavBarHeader(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Home"
+          onClick={() => {
+            dashboardOnClick();
+          }}
           {...getOverrideProps(overrides, "Dashboard")}
         ></Text>
         <Text
@@ -94,6 +101,9 @@ export default function NavBarHeader(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="About"
+          onClick={() => {
+            jobsOnClick();
+          }}
           {...getOverrideProps(overrides, "Jobs")}
         ></Text>
         <Text
@@ -115,6 +125,9 @@ export default function NavBarHeader(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Services"
+          onClick={() => {
+            applicantsOnClick();
+          }}
           {...getOverrideProps(overrides, "Applicants")}
         ></Text>
         <Text
@@ -136,6 +149,9 @@ export default function NavBarHeader(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Contact"
+          onClick={() => {
+            companyOnClick();
+          }}
           {...getOverrideProps(overrides, "Company")}
         ></Text>
       </Flex>
