@@ -1,9 +1,8 @@
+import HeroLayout1 from "../ui-components/HeroLayout1";
+
 function HomePage() {
     return (
-        <div>
-           <h1>Home Page</h1>
-           <p>This is the home page</p>
-        </div>
+      <HeroLayout1 width={"100%"} marginBottom="20px"/>  
     );
 }
 

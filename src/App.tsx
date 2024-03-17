@@ -9,7 +9,7 @@ import MarketingFooterBrand from './ui-components/MarketingFooterBrand'
 function App() {
   return (
     <BrowserRouter>
-      <NavBarHeader width="100%" />
+      <NavBarHeader width="100%" marginBottom="20px" />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<div>About</div>} />
@@ -17,7 +17,7 @@ function App() {
         <Route path="/contact" element={<div>Contact</div>} />
         <Route path="/blog" element={<div>Blog</div>} />
       </Routes>
-      <MarketingFooterBrand width="100%" />
+      <MarketingFooterBrand width="100%"  />
     </BrowserRouter>
   )
 }
