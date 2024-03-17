@@ -12,7 +12,7 @@ import { Flex, Image, Text } from "@aws-amplify/ui-react";
 import MyIcon from "./MyIcon";
 export default function NavBarHeader(props) {
   const { overrides, ...rest } = props;
-  const dashboardOnClick = useNavigateAction({ type: "url", url: "home" });
+  const dashboardOnClick = useNavigateAction({ type: "url", url: "/" });
   const jobsOnClick = useNavigateAction({ type: "url", url: "about" });
   const applicantsOnClick = useNavigateAction({ type: "url", url: "services" });
   const companyOnClick = useNavigateAction({ type: "url", url: "contact" });
