@@ -13,6 +13,7 @@ export default function MarketingFooterBrand(props) {
   const { blog, overrides, ...rest } = props;
   const aboutusOnClick = useNavigateAction({ type: "url", url: "about" });
   const contactOnClick = useNavigateAction({ type: "url", url: "contact" });
+  const blogOnClick = useNavigateAction({ type: "url", url: "blog" });
   return (
     <Flex
       gap="32px"
@@ -493,7 +494,9 @@ export default function MarketingFooterBrand(props) {
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Blog"
-            onClick={blog}
+            onClick={() => {
+              blogOnClick();
+            }}
             {...getOverrideProps(overrides, "Blog")}
           ></Text>
         </Flex>
