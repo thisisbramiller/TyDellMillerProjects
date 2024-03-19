@@ -1,4 +1,3 @@
-import React from 'react';
 import { Flex, Grid, Text, Heading } from '@aws-amplify/ui-react'
 
 function About() {
