@@ -74,9 +74,6 @@
           "appId": "d1mm9sjwvssnhr",
           "type": "cicd"
         }
-      },
-      "storage": {
-        "s3tydellmillerprojectsstorage2dddd843": {}
       }
     }
   }
