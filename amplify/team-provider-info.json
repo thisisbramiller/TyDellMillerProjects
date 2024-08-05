@@ -1,14 +1,14 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-tydellmillerprojects-dev-175653-authRole",
-      "UnauthRoleArn": "arn:aws:iam::452424739751:role/amplify-tydellmillerprojects-dev-175653-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::452424739751:role/amplify-tydellmillerprojects-dev-175653-authRole",
+      "AuthRoleName": "amplify-tydellmillerprojects-dev-174553-authRole",
+      "UnauthRoleArn": "arn:aws:iam::452424739751:role/amplify-tydellmillerprojects-dev-174553-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::452424739751:role/amplify-tydellmillerprojects-dev-174553-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-tydellmillerprojects-dev-175653-deployment",
-      "UnauthRoleName": "amplify-tydellmillerprojects-dev-175653-unauthRole",
-      "StackName": "amplify-tydellmillerprojects-dev-175653",
-      "StackId": "arn:aws:cloudformation:us-east-1:452424739751:stack/amplify-tydellmillerprojects-dev-175653/d58ad720-5288-11ee-a269-12416a274075",
+      "DeploymentBucketName": "amplify-tydellmillerprojects-dev-174553-deployment",
+      "UnauthRoleName": "amplify-tydellmillerprojects-dev-174553-unauthRole",
+      "StackName": "amplify-tydellmillerprojects-dev-174553",
+      "StackId": "arn:aws:cloudformation:us-east-1:452424739751:stack/amplify-tydellmillerprojects-dev-174553/f2b4ea30-e3e6-11ee-84e1-122c53478863",
       "AmplifyAppId": "d1mm9sjwvssnhr"
     },
     "categories": {
@@ -17,6 +17,12 @@
           "appId": "d1mm9sjwvssnhr",
           "type": "cicd"
         }
+      },
+      "auth": {
+        "tydellmillerprojects": {}
+      },
+      "storage": {
+        "s3tydellmillerprojectsstorage2dddd843": {}
       }
     }
   }
