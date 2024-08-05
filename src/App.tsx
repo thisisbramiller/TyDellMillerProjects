@@ -1,5 +1,10 @@
 import logo from './assets/logo.png'
 import './App.css'
+import NavBarHeader from './ui-components/NavBarHeader'
+import '@aws-amplify/ui-react/styles.css'
+import HomePage from './pages/HomePage'
+import MarketingFooterBrand from './ui-components/MarketingFooterBrand'
+
 
 function App() {
   return (
